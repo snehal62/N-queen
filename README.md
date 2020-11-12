@@ -1,0 +1,2 @@
+# N-queen
+Problem Statement: The N-Queens Problem consists of placing N queens on an NxN chessboard so that no two queens can capture each other. That is, no two queens are allowed to be placed on the same row, the same column or the same diagonal. The following figure illustrates a solution to the 4-Queens Problem.   4-Queens  The problem of finding all solutions to the 8-queens problem can be quite computationally expensive, as there are 64C8 =4,426,165,368 possible arrangements of eight queens on an 8×8board, but only 92 solutions.

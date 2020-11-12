@@ -16,7 +16,7 @@ for _ in range(500):
         if (r['problem'] not in sample_problems) and (len(sample_problems) < 3):
             sample_problems.append(r['problem'])
             sample_sequences.append(r['solution'])
-print('--------Steepest Ascent without sideway move method----------')
+print('--------Steepest Ascent without sideway move method (Traditional Hill climbing)----------')
 print('Success Rate: {:.2f}% | Failure Rate: {:.2f}%'.format(total/5, 100 - total/5))
 if f_cnt > 0:
     print('Average steps when it fails: {:.2f}'.format(f_steps/f_cnt))
